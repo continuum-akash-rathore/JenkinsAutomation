@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.792 sec <<< FAILURE! - in TestSuite
+jenkinsLogsVerification(com.Cont.test.TestCase2)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: Failed to verify organization Name expected [ContinuuMumbai] but found [ContinuumPune]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.Cont.test.TestCase2.jenkinsLogsVerification(TestCase2.java:12)
+
