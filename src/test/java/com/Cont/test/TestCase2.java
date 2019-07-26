@@ -12,6 +12,6 @@ public class TestCase2 extends BaseTest {
 System.out.println(System.getProperty("user.dir") +"/test-output/testReport.html");
 		test.log(Status.INFO, "Inside second test case");
 		test.log(Status.INFO, "Starting test case");
-		Assert.assertEquals("ContinuumPune", "ContinuuMumbai112", "Failed to verify organization Name");
+		Assert.assertEquals("ContinuumPune", "ContinuuMumbai1135432", "Failed to verify organization Name");
 	}
 }
