@@ -9,9 +9,9 @@ import com.base.utils.BaseTest;
 public class TestCase2 extends BaseTest {
 	@Test
 	public void companyVerification() {
-System.out.println(System.getProperty("user.dir") +"/test-output/testReport.html");
 		test.log(Status.INFO, "Inside second test case");
 		test.log(Status.INFO, "Starting test case");
-		Assert.assertEquals("ContinuumPune", "ContinuuMumbai1135432", "Failed to verify organization Name");
+		test.log(Status.INFO, "Before asserting");
+		Assert.assertEquals("ContinuumPunes", "ContinuuMumbai1135432", "Failed to verify organization Name");
 	}
 }
