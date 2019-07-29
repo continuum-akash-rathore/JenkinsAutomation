@@ -12,6 +12,7 @@ public class TestCases1 extends BaseTest {
 public void userNameVerification() {
 	test.log(Status.INFO, "Inside first test case");
 	test.log(Status.INFO, "Starting test case");
+	test.log(Status.INFO, "Before asserting");
 	Assert.assertEquals("Akash", "Akash", "Failed to verify users first name");
 }
 }
