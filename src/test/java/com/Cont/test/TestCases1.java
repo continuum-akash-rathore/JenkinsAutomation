@@ -15,6 +15,7 @@ public void userNameVerification() {
 	test.log(Status.INFO, "Inside first test case");
 	test.log(Status.INFO, "Starting test case");
 	test.log(Status.INFO, "Before asserting");
+	System.out.println("Driver path in jenkins machine is");
 	System.out.println(System.getProperty("user.dir")+"//drivers//chromedriver.exe");
 	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//drivers//chromedriver.exe");
 	WebDriver driver= new ChromeDriver();
