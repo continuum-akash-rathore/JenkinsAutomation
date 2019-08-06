@@ -13,6 +13,6 @@ public void userNameVerification() {
 	test.log(Status.INFO, "Inside first test case");
 	test.log(Status.INFO, "Starting test case");
 	test.log(Status.INFO, "Before asserting");
-	Assert.assertEquals("Akash1", "Akash1", "Failed to verify users first name");
+	Assert.assertEquals("Akash2", "Akash1", "Failed to verify users first name");
 }
 }
